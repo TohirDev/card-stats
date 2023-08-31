@@ -18,6 +18,7 @@ h4 {
 
 .container {
   width: 1000px;
+  height: 400px;
   background-color: #1b1938;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
@@ -48,10 +49,26 @@ h4 {
   font-size: 15px;
   line-height: 30px;
   margin-top: 30px;
+  width: 90%;
 }
 
 .stats {
   display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 80%;
+}
+.stats div {
+  margin-top: 20px;
+}
+
+.stats div h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.stats div span {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 14px;
 }
 
 .img {
@@ -70,6 +87,6 @@ h4 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: hsl(277, 80%, 24%);
+  background-color: #490c6e;
   opacity: 0.6;
 }
