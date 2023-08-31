@@ -90,3 +90,28 @@ h4 {
   background-color: #490c6e;
   opacity: 0.6;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 20px;
+  }
+  .information {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .information h1 {
+    font-size: 30px;
+  }
+
+  .information p {
+    font-size: 13px;
+  }
+
+  .img {
+    width: 100%;
+  }
+}
